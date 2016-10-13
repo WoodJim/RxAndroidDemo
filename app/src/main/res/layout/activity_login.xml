@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名"/>
+    <EditText
+        android:id="@+id/et_user_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="密码"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textColor="@android:color/holo_red_light"
+        android:enabled="false"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    tools:context="com.wusj.rxjavademo.MainActivity">
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="过滤"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="映射"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/btn_combine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="整合"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/btn_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定时"
+        android:textColor="#000000"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"/>
+
+
+   <Button
+       android:id="@+id/btn_login"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="登录"
+       android:textColor="#000000"/>
+</LinearLayout>
